@@ -8,9 +8,9 @@ This repo does not hold source code. It is the map. Point your agent at this REA
 
 | | Count |
 |---|---|
-| Total public repos | 452 |
-| Original (non-fork) | 83 |
-| Active (non-fork, non-archived) | 54 |
+| Total public repos | 453 |
+| Original (non-fork) | 84 |
+| Active (non-fork, non-archived) | 55 |
 | Forks | 369 |
 | Archived | 321 |
 
@@ -41,7 +41,7 @@ Full CLI reference: [multica-ai/multica CLI_AND_DAEMON.md](https://github.com/mu
 2. Claude reads [CLAUDE.md](CLAUDE.md) on startup and picks up the full portfolio map.
 3. Ask "open the alertiq repo and add a new rule" and Claude knows exactly where to go.
 
-## Active projects (54)
+## Active projects (55)
 
 Sorted by theme. All links go to GitHub.
 
@@ -141,7 +141,7 @@ Sorted by theme. All links go to GitHub.
 
 ## The rest
 
-Archived originals and forks are indexed in [`data/repos.ndjson`](data/repos.ndjson) (one JSON record per line, 452 records total). Refresh with:
+Archived originals and forks are indexed in [`data/repos.ndjson`](data/repos.ndjson) (one JSON record per line, 453 records total). Refresh with:
 
 ```bash
 ./scripts/refresh.sh

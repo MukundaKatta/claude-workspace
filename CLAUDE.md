@@ -10,7 +10,7 @@ You are working in **claude-workspace**, the portfolio index for every repo unde
 
 ## Portfolio shape
 
-- 452 public repos total, 83 originals, 54 actively maintained
+- 453 public repos total, 84 originals, 55 actively maintained
 - Heavy emphasis on agent infrastructure, LLM evals, and MCP tooling
 - Secondary themes: healthcare AI (prana, clinical-nlp-toolkit), security (alertiq, vulnfix, prithvi), SMB verticals (voiceagent, buildcost, amogha-cafe)
 

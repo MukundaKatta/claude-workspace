@@ -26,7 +26,17 @@ brew install multica-ai/tap/multica
 multica setup
 ```
 
-After setup, open [multica.ai/app](https://multica.ai/app), create an agent per CLI you use (Claude Code, Codex, OpenClaw, etc.), and assign an issue from any of the repos below. The agent claims the work on your local runtime, executes, streams progress, and reports back.
+Then provision this workspace's skills and agents in one shot:
+
+```bash
+git clone https://github.com/MukundaKatta/claude-workspace.git
+cd claude-workspace
+./scripts/provision.sh
+```
+
+`provision.sh` checks you're logged in, finds your runtime, imports the 5 skills from `.multica/skills/`, and creates one agent per CLI it detects on your `PATH` (Claude, OpenClaw, Gemini, Codex, OpenCode, Cursor, Pi, Hermes). Re-running is safe — it skips skills and agents that already exist.
+
+After that, assign any issue from any of your repos to one of the new agents. The agent claims the work on your local runtime, executes, streams progress, and reports back.
 
 Full CLI reference: [multica-ai/multica CLI_AND_DAEMON.md](https://github.com/multica-ai/multica/blob/main/CLI_AND_DAEMON.md). Self-host: [SELF_HOSTING.md](https://github.com/multica-ai/multica/blob/main/SELF_HOSTING.md).
 
@@ -158,6 +168,7 @@ This rewrites `data/repos.ndjson` from the GitHub API so the index stays fresh.
 | [AGENTS.md](AGENTS.md) | Multica / generic-agent context (symlink to CLAUDE.md) |
 | [.multica/skills/](.multica/skills/) | Starter Multica skills for cross-repo work |
 | [scripts/refresh.sh](scripts/refresh.sh) | Regenerate the repo index from the GitHub API |
+| [scripts/provision.sh](scripts/provision.sh) | Import skills + create agents in your Multica workspace (idempotent) |
 | [data/repos.ndjson](data/repos.ndjson) | Raw repo metadata — one JSON record per repo |
 
 ## License

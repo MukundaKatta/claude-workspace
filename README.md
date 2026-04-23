@@ -8,11 +8,11 @@ This repo does not hold source code. It is the map. Point your agent at this REA
 
 | | Count |
 |---|---|
-| Total public repos | 453 |
-| Original (non-fork) | 84 |
-| Active (non-fork, non-archived) | 55 |
+| Total public repos | 475 |
+| Original (non-fork) | 106 |
+| Active (non-fork, non-archived) | 69 |
 | Forks | 369 |
-| Archived | 321 |
+| Archived | 329 |
 
 ## Quick start with Multica
 
@@ -51,9 +51,9 @@ Full CLI reference: [multica-ai/multica CLI_AND_DAEMON.md](https://github.com/mu
 2. Claude reads [CLAUDE.md](CLAUDE.md) on startup and picks up the full portfolio map.
 3. Ask "open the alertiq repo and add a new rule" and Claude knows exactly where to go.
 
-## Active projects (55)
+## Active projects (69)
 
-Sorted by theme. All links go to GitHub.
+Sorted by theme. All links go to GitHub. The tables below cover the first batch of active originals; the raw list in [`data/repos.ndjson`](data/repos.ndjson) is authoritative.
 
 ### AI agents & agent infrastructure
 
@@ -62,11 +62,7 @@ Sorted by theme. All links go to GitHub.
 | [karna](https://github.com/MukundaKatta/karna) | TypeScript | Self-hosted personal AI assistant with multi-channel messaging, extensible skills, and semantic memory |
 | [AgentRAG](https://github.com/MukundaKatta/AgentRAG) | Python | Modular RAG pipeline — chunking, embedding, retrieval, reranking with pluggable vector stores |
 | [astra-agent](https://github.com/MukundaKatta/astra-agent) | TypeScript | Standalone agent runtime — tool execution, context management, multi-model routing |
-| [agent-memory-kit](https://github.com/MukundaKatta/agent-memory-kit) | Python | Persistent memory for AI agents — semantic search, token-aware context, pluggable storage |
 | [agentmem](https://github.com/MukundaKatta/agentmem) | Python | Memory management — short-term, long-term, semantic memory with automatic consolidation |
-| [AgentBench](https://github.com/MukundaKatta/AgentBench) | Python | Agent evaluation — accuracy, efficiency, tool usage scoring |
-| [agent-benchmark-suite](https://github.com/MukundaKatta/agent-benchmark-suite) | Python | Comprehensive benchmarking suite for agent capabilities |
-| [agent-eval-arena](https://github.com/MukundaKatta/agent-eval-arena) | Python | Head-to-head agent evaluation with ELO rating |
 | [SwarmKit](https://github.com/MukundaKatta/SwarmKit) | Python | Multi-agent framework with voting and consensus |
 | [swarmcast](https://github.com/MukundaKatta/swarmcast) | Python | Universal swarm intelligence engine |
 
@@ -76,12 +72,9 @@ Sorted by theme. All links go to GitHub.
 |---|---|---|
 | [EvalBench](https://github.com/MukundaKatta/EvalBench) | Python | BLEU, ROUGE, semantic similarity, custom metrics |
 | [evalharness](https://github.com/MukundaKatta/evalharness) | TypeScript | Red teaming, regression testing, CI/CD for AI |
-| [evallab](https://github.com/MukundaKatta/evallab) | TypeScript | Independent AI model evaluation and capability testing |
 | [TokenWise](https://github.com/MukundaKatta/TokenWise) | Python | Token counting, cost estimates, budget tracking across LLM providers |
-| [ModelBench](https://github.com/MukundaKatta/ModelBench) | Python | Model serving benchmarks — p50/p95/p99 latency, throughput |
 | [llm-bench-cli](https://github.com/MukundaKatta/llm-bench-cli) | Python | Fast CLI for benchmarking local LLMs |
 | [HybridFind](https://github.com/MukundaKatta/HybridFind) | Python | Hybrid BM25 + vector search with Reciprocal Rank Fusion |
-| [EmbedBench](https://github.com/MukundaKatta/EmbedBench) | Python | TF-IDF, BoW, n-gram embedding comparison |
 | [oss-contributions](https://github.com/MukundaKatta/oss-contributions) | Python | Public hub for AI SDK, MCP, and eval contributions |
 
 ### MCP (Model Context Protocol)
@@ -90,7 +83,6 @@ Sorted by theme. All links go to GitHub.
 |---|---|---|
 | [MCPForge](https://github.com/MukundaKatta/MCPForge) | Python | Build, test, deploy MCP servers — scaffolding + hot-reload + registry publishing |
 | [mcp-quickserve](https://github.com/MukundaKatta/mcp-quickserve) | Python | Minimal toolkit for creating MCP servers from plain functions with decorators |
-| [mcp-toolbox](https://github.com/MukundaKatta/mcp-toolbox) | Python | Auto-generates schemas from type hints, handles JSON-RPC |
 | [mcp-toolkit](https://github.com/MukundaKatta/mcp-toolkit) | TypeScript | Toolkit for building MCP servers and clients |
 | [mcpcheck](https://github.com/MukundaKatta/mcpcheck) | TypeScript | MCP config linter for Claude Desktop, Cursor, Cline, Windsurf, Zed |
 | [rag-knowledge-base](https://github.com/MukundaKatta/rag-knowledge-base) | TypeScript | RAG knowledge base with FastAPI, ChromaDB, Claude API streaming |

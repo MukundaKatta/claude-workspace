@@ -209,6 +209,27 @@ All 99 active originals, sorted by theme. Raw metadata in [`data/repos.ndjson`](
 | [Employee_Management_System_Project](https://github.com/MukundaKatta/Employee_Management_System_Project) | HTML | Employee management with RBAC |
 | [TeamZion](https://github.com/MukundaKatta/TeamZion) | — | — |
 
+## The ADAPT framework — which lib for which stage
+
+Most people stuck on AI are stuck between dabbling and amplifying. They touch 30 tools, master none, and tell themselves they're "keeping up" while their co-worker at the next desk is shipping. The 5 stages below map each step to libraries in this stack so you know what to pick up when.
+
+| Stage | What you do | Libraries from the stack |
+|---|---|---|
+| **A — Acknowledge** | Stop telling yourself AI will not change your job. It already has. 11.7% of every job today is automatable right now. | — |
+| **D — Dabble** | Touch 20+ tools across text, image, voice, code, automation. Build a vibe for what is possible. | Skim every README under [@MukundaKatta](https://github.com/MukundaKatta) and the [@mukundakatta GitLab](https://gitlab.com/mukunda.vjcs6) namespace. No deep dives yet. |
+| **A — Amplify** | Pick 3–5 tools and push them to failure. Stop reading articles and start using them on paid work. | If you build agents: [`skill-runtime`](https://gitlab.com/mukunda.vjcs6/skill-runtime) + [`agent-tools`](https://gitlab.com/mukunda.vjcs6/agent-tools) + [`agent-memory`](https://gitlab.com/mukunda.vjcs6/agent-memory). If you ship to prod: [`agentsnap`](https://www.npmjs.com/package/@mukundakatta/agentsnap) + [`agentguard`](https://www.npmjs.com/package/@mukundakatta/agentguard) + [`agentvet`](https://www.npmjs.com/package/@mukundakatta/agentvet). |
+| **P — Problem solve** | Stop thinking in tools. Stitch 5–6 of them into one workflow that solves a real problem someone will pay for. | [`agent-team`](https://gitlab.com/mukunda.vjcs6/agent-team) (fan-out), [`tool-bridge`](https://gitlab.com/mukunda.vjcs6/tool-bridge) (MCP server bridge), [`code-rag`](https://gitlab.com/mukunda.vjcs6/code-rag) (RAG), [`prompt-store`](https://gitlab.com/mukunda.vjcs6/prompt-store) (prompt versioning). |
+| **T — Tie together** | Multiple workflows run in the background without you touching them. AI is your employee, not your tool. | [`daily-agent`](https://gitlab.com/mukunda.vjcs6/daily-agent) (cron-driven orchestration) + [`agent-memory`](https://gitlab.com/mukunda.vjcs6/agent-memory) + [`llm-router`](https://gitlab.com/mukunda.vjcs6/llm-router) (per-task model routing) + [`agent-replay`](https://gitlab.com/mukunda.vjcs6/agent-replay) (replay traces for debugging). The `morning-briefing` skill in `daily-agent` is the reference example. |
+
+The four words that show up in every AI meeting:
+
+- **system prompts** — the briefing you give the AI before it starts. Use [`skill-runtime`](https://gitlab.com/mukunda.vjcs6/skill-runtime) to template and version them.
+- **RAG** (retrieval-augmented generation) — the AI answers from your data instead of guessing. Use [`code-rag`](https://gitlab.com/mukunda.vjcs6/code-rag).
+- **MCP** (model context protocol) — a USB port that lets the AI actually do things in your apps. Use [`tool-bridge`](https://gitlab.com/mukunda.vjcs6/tool-bridge).
+- **fine-tuning** — taking a general AI and training it for one specific job. Not in this stack yet; use OpenAI/Anthropic/together.ai endpoints directly.
+
+Stack quintet on npm (all v1+, BYO-LLM, zero deps): [`agentfit`](https://www.npmjs.com/package/@mukundakatta/agentfit) → [`agentguard`](https://www.npmjs.com/package/@mukundakatta/agentguard) → [`agentsnap`](https://www.npmjs.com/package/@mukundakatta/agentsnap) → [`agentvet`](https://www.npmjs.com/package/@mukundakatta/agentvet) → [`agentcast`](https://www.npmjs.com/package/@mukundakatta/agentcast). Each one wraps a thin slice of the agent loop. Pick the one that matches the failure you keep hitting in production.
+
 ## The rest
 
 Archived originals and forks are indexed in [`data/repos.ndjson`](data/repos.ndjson) (one JSON record per line, 505 records total). Refresh with:

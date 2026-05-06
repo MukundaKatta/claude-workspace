@@ -65,6 +65,7 @@ A curated cut of the 185 active originals, sorted by theme. The full list lives 
 | [agentmem](https://github.com/MukundaKatta/agentmem) | Python | Memory management — short-term, long-term, semantic memory with automatic consolidation |
 | [SwarmKit](https://github.com/MukundaKatta/SwarmKit) | Python | Multi-agent framework with voting and consensus |
 | [swarmcast](https://github.com/MukundaKatta/swarmcast) | Python | Universal swarm intelligence engine |
+| [agent-stack](https://github.com/MukundaKatta/agent-stack) | JavaScript | Reliability stack landing page for the @mukundakatta/agent* libs (fit, guard, snap, vet, cast) |
 
 ### LLM tooling & evals
 
@@ -102,6 +103,7 @@ A curated cut of the 185 active originals, sorted by theme. The full list lives 
 | [alertiq](https://github.com/MukundaKatta/alertiq) | Python | AI SOC analyst — alert triage, correlation, incident response |
 | [vulnfix](https://github.com/MukundaKatta/vulnfix) | Python | AI vulnerability scanner with fix suggestions |
 | [prithvi](https://github.com/MukundaKatta/prithvi) | Python | Container security scanner |
+| [rag-guardrails-paper](https://github.com/MukundaKatta/rag-guardrails-paper) | LaTeX | Preprint bundle for small-rule RAG guardrails: prompt injection + vector poisoning checks. Zenodo + Figshare DOI. |
 
 ### Healthcare & wellness
 

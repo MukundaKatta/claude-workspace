@@ -77,6 +77,7 @@ A curated cut of the 185 active originals, sorted by theme. The full list lives 
 | [llm-bench-cli](https://github.com/MukundaKatta/llm-bench-cli) | Python | Fast CLI for benchmarking local LLMs |
 | [HybridFind](https://github.com/MukundaKatta/HybridFind) | Python | Hybrid BM25 + vector search with Reciprocal Rank Fusion |
 | [oss-contributions](https://github.com/MukundaKatta/oss-contributions) | Python | Public hub for AI SDK, MCP, and eval contributions |
+| [agent-eval-public-notes](https://github.com/MukundaKatta/agent-eval-public-notes) | Markdown | Reusable notes for evaluating tool-using AI agents — operational scorecard, trajectory replay debugging, RAG guardrail smoke tests |
 
 ### MCP (Model Context Protocol)
 

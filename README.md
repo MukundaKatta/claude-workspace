@@ -106,6 +106,7 @@ A curated cut of the 185 active originals, sorted by theme. The full list lives 
 | [prithvi](https://github.com/MukundaKatta/prithvi) | Python | Container security scanner |
 | [rag-guardrails-action](https://github.com/MukundaKatta/rag-guardrails-action) | YAML | GitHub Action: scan retrieved-text fixtures for prompt-injection + vector-poisoning before they reach your LLM. Wraps both npm libs. v0.1.0. |
 | [prompt-injection-shield-demo](https://github.com/MukundaKatta/prompt-injection-shield-demo) | Python | Streamlit demo of the prompt-injection scanner. Mirrored as a Hugging Face Space at [mukunda1729/prompt-injection-shield-demo](https://huggingface.co/spaces/mukunda1729/prompt-injection-shield-demo). |
+| [prompt-injection-eval](https://huggingface.co/datasets/mukunda1729/prompt-injection-eval) | CSV/JSONL | Hand-curated evaluation dataset for prompt-injection detectors: 74 rows across 9 categories (classic override, URL exfil, system impersonation, tool hijack, role override, encoded, indirect RAG poison, borderline, benign). Companion to prompt-injection-shield. |
 | [rag-guardrails-paper](https://github.com/MukundaKatta/rag-guardrails-paper) | LaTeX | Preprint bundle for small-rule RAG guardrails: prompt injection + vector poisoning checks. Zenodo + Figshare DOI. |
 
 ### Healthcare & wellness

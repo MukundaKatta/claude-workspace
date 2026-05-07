@@ -104,6 +104,7 @@ A curated cut of the 185 active originals, sorted by theme. The full list lives 
 | [alertiq](https://github.com/MukundaKatta/alertiq) | Python | AI SOC analyst — alert triage, correlation, incident response |
 | [vulnfix](https://github.com/MukundaKatta/vulnfix) | Python | AI vulnerability scanner with fix suggestions |
 | [prithvi](https://github.com/MukundaKatta/prithvi) | Python | Container security scanner |
+| [rag-guardrails-action](https://github.com/MukundaKatta/rag-guardrails-action) | YAML | GitHub Action: scan retrieved-text fixtures for prompt-injection + vector-poisoning before they reach your LLM. Wraps both npm libs. v0.1.0. |
 | [rag-guardrails-paper](https://github.com/MukundaKatta/rag-guardrails-paper) | LaTeX | Preprint bundle for small-rule RAG guardrails: prompt injection + vector poisoning checks. Zenodo + Figshare DOI. |
 
 ### Healthcare & wellness

@@ -110,7 +110,22 @@ A curated cut of the 185 active originals, sorted by theme. The full list lives 
 | [prompt-injection-shield-cli](https://github.com/MukundaKatta/prompt-injection-shield-cli) | Python | `pis-scan` CLI wrapper around prompt-injection-shield-py. Available on PyPI, Homebrew, and GHCR. v0.1.0. |
 | [awesome-prompt-injection-defense](https://github.com/MukundaKatta/awesome-prompt-injection-defense) | Markdown | Curated list of detection libs, RAG guardrails, eval datasets, demos, and papers for defending LLMs against prompt injection. CC0. |
 | [homebrew-tap](https://github.com/MukundaKatta/homebrew-tap) | Ruby | Personal Homebrew tap. `brew tap MukundaKatta/tap` then `brew install pis-scan`. |
-| [rag-guardrails-paper](https://github.com/MukundaKatta/rag-guardrails-paper) | LaTeX | Preprint bundle for small-rule RAG guardrails: prompt injection + vector poisoning checks. Zenodo + Figshare DOI. |
+| [rag-guardrails-paper](https://github.com/MukundaKatta/rag-guardrails-paper) | LaTeX | Preprint bundle for small-rule RAG guardrails: prompt injection + vector poisoning checks. Zenodo + Figshare + OSF + Kaggle. |
+
+#### RAG guardrails: external mirrors and surfaces
+
+| Surface | URL |
+|---|---|
+| GitHub Pages (awesome list) | https://mukundakatta.github.io/awesome-prompt-injection-defense/ |
+| Hugging Face Space (live demo) | https://huggingface.co/spaces/mukunda1729/prompt-injection-shield-demo |
+| Hugging Face Dataset | https://huggingface.co/datasets/mukunda1729/prompt-injection-eval |
+| Kaggle Dataset | https://www.kaggle.com/datasets/mukundakatta/prompt-injection-eval-set |
+| OSF Project | https://osf.io/nxyvr |
+| PyPI (pis-scan) | https://pypi.org/project/prompt-injection-shield-cli/ |
+| GHCR container | ghcr.io/mukundakatta/pis-scan |
+| Codeberg mirrors | https://codeberg.org/MukundaKatta (4 repos) |
+| GitLab mirrors | https://gitlab.com/mukunda.vjcs6 (4 repos) |
+| Replit | https://replit.com/@mukundavjcs6 |
 
 ### Healthcare & wellness
 

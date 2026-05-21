@@ -235,7 +235,7 @@ The landing repo is **[bedrock-production-stack](https://github.com/MukundaKatta
 
 | Repo | Stack | Description |
 |---|---|---|
-| [mukunda-ai](https://github.com/MukundaKatta/mukunda-ai) | TypeScript | Personal portfolio — mukunda.dev |
+| [mukunda-ai](https://github.com/MukundaKatta/mukunda-ai) | TypeScript | Personal portfolio — mukundakatta.dev |
 | [MukundaKatta](https://github.com/MukundaKatta/MukundaKatta) | Python | Profile README |
 | [claude-workspace](https://github.com/MukundaKatta/claude-workspace) | Shell | This repo — central index for agent tooling |
 | [heimdall](https://github.com/MukundaKatta/heimdall) | Python | Curated AI system prompts |
